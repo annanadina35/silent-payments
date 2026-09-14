@@ -1,0 +1,14 @@
+[package]
+build = "build.rs"
+name = "silent-payments"
+version = "0.1.0"
+edition = "2021"
+authors = ["Vault Labs"]
+license = "MIT"
+description = "Silent Payments shell — labeled accounts, no node."
+readme = "README.md"
+repository = "https://github.com/vaultlabs/silent-payments"
+
+[[bin]]
+name = "silent-payments"
+path = "src/main.rs"
